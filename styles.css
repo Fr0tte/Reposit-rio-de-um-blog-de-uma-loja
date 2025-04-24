@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+
+
+
+header {
+    margin: 30px 0 200px 25px;
+
+}
+
+body * {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+/* Classe que será adicionada após o carregamento */
+.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+.link-header {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #50C233;
+    font-weight: 500;
+    line-height: 15px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.button-header {
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    background-color: #15AF27;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0px 3px 3px 0 rgba(63, 61, 61, 0.445);
+}
+
+
+
+.log-info {
+    display: inline-block;
+    margin-left: 300px;
+
+
+}
+
+
+section {
+    display: inline-block;
+    margin-left: 100px;
+
+}
+
+
+h1 {
+    width: 524px;
+    font-weight: 900;
+    font-size: 48px;
+    color: #515151;
+    height: 99px;
+
+
+}
+
+
+
+p {
+    width: 515px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #848484;
+    margin-top: 50px;
+    height: 82px;
+}
+
+.form-site {
+    background-color: rgb(160, 155, 155);
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: -400px;
+    top: 30%;
+    padding: 20px;
+    border-radius: 5px;
+    gap: 20px;
+    transition: left 0.5s ease-in-out;
+    box-shadow: 25px 33px 22px -5px rgba(0, 0, 0, 0.6);
+}
+
+
+input {
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding-left: 5px;
+    outline-color: black;
+    width: 280px;
+}
+
+textarea {
+    width: 280px;
+    border-radius: 5px;
+    border: 1px solid rgb(70, 67, 67);
+    padding-left: 5px;
+    outline-color: black;
+}
+
+
+#button-formulari {
+    background-color: rgb(241, 245, 241);
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    height: 50px;
+    width: 280px;
+    cursor: pointer;
+}
+
+
+.mascara-formulario {
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    transition: 0.5s ease-in-out;
+
+}
+
+
+.h-section {
+    display: inline-block;
+    margin-left: 200px;
+
+
+}
+
+.h2-section {
+    margin-bottom: 20px;
+    font-weight: 700;
+
+}
+
+.h3-section {
+    width: 400px;
+    font-weight: 500;
+
+
+}
+
+.building-image {
+    display: inline-block;
+    margin-left: 190px;
+    margin-top: 400px;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.section {
+    margin-left: 200px;
+    display: inline-block;
+}
+
+
+
+.intern-image {
+    display: inline-block;
+    margin-left: 190px;
+    margin-top: 500px;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+
+}
+
+
+
+.text2-section {
+    margin-bottom: 20px;
+    font-weight: 700
+}
+
+
+
+.text3-section {
+    width: 400px;
+    font-weight: 500;
+}
+
+
+footer {
+    background-image: linear-gradient(rgb(134, 131, 131));
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 100px;
+    box-shadow: rgba(46, 46, 94, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+
+}
+
+footer p {
+    margin-left: 600px;
+    color: white;
+    top: 50px;
+
+}
+
+
+footer lu a {
+    text-decoration: none;
+    margin-left: 20px;
+    color: white;
+
+}
